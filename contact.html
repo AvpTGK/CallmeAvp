@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Problem</title>
+    <style>
+
+        img.back {
+          width: 10px;
+        }
+  
+          h1{
+              font-family: cursive;
+          }
+      </style>
+</head>
+<body>
+    <form  action="./forms.html">
+        <label for="fname">Full name:</label> <br>
+        <input type="text" id="fname" name="fname" value=""><br> 
+
+        <input type="checkbox" id="fname" value="">
+        <label for="fname">Answer Anonymously </label> <br> <br>
+
+        <label for="query">Question:</label><br>
+        <input type="text" id="query" name="query" value="" minlength="1" maxlength="100" required><br> <br>
+        
+        <label for="difficulty">Difficulty:</label><br>
+        <input type="checkbox" id="difficulty1"  value=""> 
+        <label for="difficulty1">Website Crash</label> <br>
+        <input type="checkbox" id="difficulty2"  value="">
+        <label for="difficulty2">Server Problems</label> <br> <br>
+        <label for="otherdifficulty">Other Difficulties:</label><br>
+        <input type="text" id="otherdifficulty" name="otherdifficulty" value=""><br> <br>
+
+        <label for="gender">Gender:</label> <br>
+        <input type="radio" id="male" value="" checked>
+        <label for="male">Male</label> <br> 
+        <input type="radio" id="female" value="">
+        <label for="female">Female</label> <br> <br>
+        
+        <input type="submit" value="Submit">
+
+     </form>
+     <a href="index.html"><img class="back" src="images/R.png" alt="Go back"></a>
+</body>
+</html>
