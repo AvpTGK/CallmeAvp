@@ -1,51 +1,46 @@
 .container {
     display: flex;
+    border-width: 3px;
+    border-color: black;
+    height: 400px;
+    background-color: pink;
+    flex-flow: row wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+display: grid;
+grid-template: repeat(4, 100px 100px 100px 100px);
+row-gap: 10px;
+column-gap: 20px;
+justify-items: center;
+align-items: center;
+
+
 }
-.left-column {
-    flex: 1;
+
+.flex-item{
+        color:black;
+        background-color: aquamarine;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-family: cursive;
+        font-size: large;
+    line-height: 50px;
+
+
 }
-.right-column {
-    flex: 1;
+
+#grid1 {
+    grid-column-start: 2;
+    grid-column-end:4;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4<div class="flex-item" id="itemA">A</div>
+        <div class="flex-item" id="itemB">B</div>
+        <div class="flex-item" id="itemC">C</div> ;
+    
 }
-.container2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: red;
-}
-.column1 {
-    background-color: lightblue;
-}
-.column2 {
-    background-color: lightblue;
-    flex-grow: 1;
-}
-.column3 {
-    background-color: lightblue;
-}
-.column4 {
-    background-color: lightblue;
-}
-.column1 {
-    background-color: lightblue;
-}
-.column5 {
-    background-color: lightblue;
-}
-.column1 {
-    background-color: lightblue;
-}
-.column6 {
-    background-color: lightblue;
-}
-.column7 {
-    background-color: lightblue;
-}
-.column8 {
-    background-color: lightblue;
-}
+
+
+        

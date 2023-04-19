@@ -65,13 +65,14 @@ img.back {
       h2 {
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
+          
       }
       p.click-me {
         font-family: cursive;
       }
       em {
         font-size: large;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        font-family: cursive ;
       
       } 
     img.gmail {
