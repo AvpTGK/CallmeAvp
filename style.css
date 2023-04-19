@@ -20,7 +20,7 @@ img.back {
    
 
       table,th,td {
-        border: 1px solid black;
+        border: 5px solid black;
       }
 
       body{
@@ -76,6 +76,8 @@ img.back {
       } 
     img.gmail {
         width: 50px;
+        float: right;
+        
     }
 
     form{
@@ -92,7 +94,17 @@ img.back {
         height: 50px;
 
 
-        margin-right: 50px;
+        
       }
+
+      img.youtube {
+        width: 50px;
+        margin-right: 20px;
+        
+        float: right;
+        
+    }
+
+       
 
       
