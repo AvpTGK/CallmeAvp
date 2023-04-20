@@ -6,6 +6,7 @@ img.back {
   }
 
     h1{
+      color: whitesmoke;
         font-family: cursive;
         display: table;
         cursor: pointer;
@@ -198,11 +199,36 @@ img.back {
 }
 
 
-img.scared {
-  width: ;
+img.scared1 {
+
+  width: 400px;
   
-  
+
 }
+
+
+img.download {
+
+  float: center;
+}
+
+img.scared2 {
+
+  width: 400px;
+  height: 340px;
+  
+
+}
+
+img.scared3 {
+
+  width: 360px;
+  height: 340px;
+  
+
+}
+
+
 
 
 
