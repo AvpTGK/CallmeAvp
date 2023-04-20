@@ -9,9 +9,11 @@
 </head>
 <body>
 
-    <a href="index.html"><img class="back" src="images/R.png" alt="Go back"></a>
+    <a href="index.html"><img class="back" src="images/back.png" alt="Go back"></a>
 
     <h1>Call Me Avp</h1>
+
+    <h2 style="text-align: center;"><em> Report Your Problem/Question:</em> </h2>
 
     <form  action="./forms.html">
         <label for="fname"><em>Name:</em></label> <br>
@@ -31,11 +33,28 @@
         <label for="otherdifficulty"><em>Other Difficulties:</em></label><br>
         <input type="text" id="otherdifficulty" name="otherdifficulty" value=""><br> <br>
 
-        <label for="gender"><em>Gender</em></label> <br>
-        <input type="radio" id="male" value="" checked>
-        <label for="male">Male</label> <br> 
-        <input type="radio" id="female" value="">
-        <label for="female">Female</label> <br> <br>
+
+        <label for="gender"><em>Gender:</em> <br> 
+
+        <label>
+            Male
+            <input type="radio" name="gender"
+                   id="male" value="male" />
+          </label><br/>
+     
+          <label>
+            Female
+            <input type="radio" name="gender"
+                   id="female" value="female" />
+          </label><br/>
+     
+          <label>
+            Other
+            <input type="radio" name="gender"
+                   id="other" value="other" />
+          </label>
+
+          <br> <br>
         
         <input type="submit" value="Submit">
 
